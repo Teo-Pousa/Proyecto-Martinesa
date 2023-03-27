@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*font-family: 'Bitter', serif;
+font-family: 'Roboto Slab', serif;
+*/
+/*BODY INDEX*/
+
+
+/*HEADER INDEX*/
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    height: 150px;
+    background-color: #3d8f5d;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+.logoMartinesa{
+    display: flex;
+    align-items: center;
+}
+.logoMartinesa img{
+    height: 250px;
+    margin-right: 100px;
+}
+
+nav a{
+    font-weight: 400;
+    padding-right: 50px;
+}
+.blanco{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: green;
+}
+
+.logoMartinesa h1{
+    font-family: 'Bitter', serif;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+    display: flex
+}
+
+/*MAIN INDEX*/
+.indexMain{
+    display: flex;
+    height: max-content;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #82e89d;
+}
+.loremFont{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    padding: 40px;
+    font-size: 40px
+}
+
+.cartaNegra{
+
+    font-family: 'Roboto Slab', serif;
+    font-size: 30px;
+    margin: 700px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+main div a:hover{
+    color: #3d8f5d;
+}
+.volver{
+    margin: 50px;
+    color: black;
+}
+a img{
+    height: 80px;
+    margin: 51px;
+
+}
+
+
+/*FOOTER INDEX*/
+
+footer{
+    text-align: center;
+    padding: 1em 0;
+    background-color: #3d8f5d
+}
+footer section a{
+    text-decoration: none;
+}
+.containerFooter{
+    justify-content: space-between;
+    display: flex;
+    margin: 9px;
+    text-align: center;
+    align-items: center;
+}
+
+.mapaMartinesa{
+    height: 70px;
+    width: max-content;
+}
+
+
+/*----------- RESERVA --------- */
+
+/*HEADER RESERVA*/
+
+.reservaTitulo{
+    font-family: 'Bitter', serif;
+    color: black;
+    margin: 50px;
+}
+/*MAIN RESERVA*/
+.mainReserva{
+    display: flex;
+    height: max-content;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #82e89d;
+}
+
+.loremReserva{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin: 90px;
+    padding: 40px;
+    font-size: 40px
+}
+
+.volverTodo{
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+}
+
+.divVolverReserva{
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+/*FOOTER RESERVA*/
+
+.footerReserva{
+    justify-content: space-between;
+    margin: 30px;
+}
+
