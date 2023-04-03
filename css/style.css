@@ -13,26 +13,46 @@ font-family: 'Roboto Slab', serif;
 body{
     margin: 0;
 }
-header{
+.headerContainer{
     display: flex;
-    height: 150px;
     background-color: #3d8f5d;
-    justify-content: space-between;
     align-items: center;
-    padding: 25px;
+    flex-flow: row wrap;
+}
+.sectionHeader{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.tituloIndex{
+    display: flex;
+    padding: 30px;
+    text-align:center;
+    margin: 30px;
+    font-family: 'Bitter', serif;
+}
+
+.containerLogo{
+    align-items: center;
+    margin: 10px;
 }
 .logoMartinesa{
     display: flex;
+    padding: 10px;
+    height:150px;
     align-items: center;
 }
-.logoMartinesa img{
-    height: 250px;
-    margin-right: 100px;
+.barraInicio{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-
-nav a{
+.barraInicio a{
     font-weight: 400;
     padding-right: 50px;
+    margin-left: 10px;
+    font-family: 'Roboto Slab', serif;
 }
 .blanco{
     text-decoration: none;
@@ -53,24 +73,33 @@ nav a:hover{
 /*MAIN INDEX*/
 .indexMain{
     display: flex;
-    height: max-content;
-    justify-content: space-between;
+    flex-direction: column;
     text-align: center;
     background-color: #82e89d;
 }
-.loremFont{
+.sectionMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.containerLorem{
+    display: flex;
+    flex-wrap: wrap;
+}
+.loremMain{
+    display: flex;
+    flex-flow: row wrap;
     font-family: 'Roboto Slab', serif;
+    font-size: 30px;
     text-align: center;
-    padding: 40px;
-    font-size: 40px
 }
 
 .cartaNegra{
-
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     font-family: 'Roboto Slab', serif;
     font-size: 30px;
-    margin: 700px;
-    padding: 20px;
     text-decoration: none;
     color: black;
 
@@ -82,10 +111,13 @@ main div a:hover{
     margin: 50px;
     color: black;
 }
-a img{
-    height: 80px;
-    margin: 51px;
-
+.containerEscudo{
+    display: flex;
+    flex-direction: column;
+}
+.baraderoEscudo{
+    width: 100px;
+    height: 100px;
 }
 
 
@@ -93,7 +125,6 @@ a img{
 
 footer{
     text-align: center;
-    padding: 1em 0;
     background-color: #3d8f5d
 }
 footer section a{
@@ -102,14 +133,14 @@ footer section a{
 .containerFooter{
     justify-content: space-between;
     display: flex;
-    margin: 9px;
     text-align: center;
     align-items: center;
+    padding: 15px;
 }
 
 .mapaMartinesa{
     height: 70px;
-    width: max-content;
+    width: 100px;
 }
 
 
@@ -117,44 +148,128 @@ footer section a{
 
 /*HEADER RESERVA*/
 
+.reservaHeader{
+    display: flex;
+    background-color: #3d8f5d;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.headerSection{
+    display: flex;
+    flex-flow: row wrap;
+}
 .reservaTitulo{
+    display: flex;
+    padding: 30px;
+    text-align:center;
+    margin: 30px;
     font-family: 'Bitter', serif;
-    color: black;
-    margin: 50px;
 }
 /*MAIN RESERVA*/
 .mainReserva{
     display: flex;
-    height: max-content;
-    justify-content: space-between;
+    flex-direction: column;
     text-align: center;
     background-color: #82e89d;
 }
+.sectionMainReserva{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+.divLoremReserva{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .loremReserva{
+    display: flex;
+    flex-flow: row wrap;
     font-family: 'Roboto Slab', serif;
+    font-size: 30px;
     text-align: center;
-    margin: 90px;
-    padding: 40px;
-    font-size: 40px
 }
 
 .volverTodo{
+    display: flex;
+    flex-flow: column wrap;
     text-decoration: none;
     color: black;
     font-size: xx-large;
+    margin: 40px;
 }
 
 .divVolverReserva{
-    margin: 20px;
+    display: flex;
     text-align: center;
     align-items: center;
+}
+.logoReserva{
+    width: 100px;
+    height: 100px;
 }
 
 /*FOOTER RESERVA*/
 
+.containerFooterReserva{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+}
+
 .footerReserva{
-    justify-content: space-between;
-    margin: 30px;
+    display: flex;
+    flex-flow: column wrap;
+    font-family: 'Roboto Slab', serif;
+    padding: 21px;
+    margin: 16px;
+}
+
+
+
+
+
+
+@media (max-width:768px){
+.logoMartinesa{
+    height: 100px;
+}
+.tituloIndex{
+    font-size: 15px;
+    padding: 0px;
+}
+.loremMain{
+    font-size: 10px;
+}
+.loremReserva{
+    font-size: 20px;
+}
+.reservaTitulo{
+    font-size: 40px;
+}
+}
+
+
+
+@media (max-width:320px){
+.tituloIndex{
+    font-size: 10px;
+}
+.logoMartinesa{
+    height: 60px;
+}
+.barraInicio{
+    font-size: 10px;
+}
+.loremReserva{
+    font-size: 10px;
+}
+.footerReserva{
+    font-size: 15px;
+}
+.reservaTitulo{
+    font-size:small;
+}
 }
 
