@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: $backgroundColorSecundario;
+}
+header{
+    background-color: $backgroundColorPincipal;
+}
+footer{
+    background-color: $backgroundColorPincipal;
+}
+a:hover{
+    color: white;
+}
+/*COLORES
+#4cad65 (VERDE CLARO)
+#0f732a (VERDE OSCURO)
+
+/*Colores para la pagina 
+#0f732a (verde oscuro)
+#1d913c (verde claro)
+*/

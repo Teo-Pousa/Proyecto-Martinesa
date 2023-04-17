@@ -1,0 +1,139 @@
+@media(max-width:768px){
+    header{
+        background-color: $backgroundColorPincipal;
+        img{
+            width: 300px;
+            margin: 10px;
+        }
+        h1{
+            text-align: center;
+            text-decoration: none;
+            width: 200px;
+            font-family: 'Roboto Slab', serif;
+            font-size: 10px;
+        }
+    }
+}
+
+.footerReserva{
+    background-color: $backgroundColorPincipal;
+    height: 70px;
+    section{
+        display: flex;
+        align-items: center;
+        color: black;
+        justify-content: space-around;
+    }
+    nav ul a{
+        margin: 50px;
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+    }
+}
+
+.footerLocal{
+    background-color: $backgroundColorPincipal;
+    section{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    nav ul a{
+        text-decoration: none;
+        color: black;
+        margin: 30px;
+        font-size: 35px;
+    }
+}
+
+.footerEquipo{
+    background-color: $backgroundColorPincipal;
+    height: 55px;
+    section{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    nav ul a{
+        text-decoration: none;
+        color: black;
+        margin: 50px;
+        font-size: 30px;
+    }
+}
+
+.headerPys{
+    section{
+        @include flex
+    }
+    h2{
+        font-size: 50px;
+        font-family: 'Roboto Slab', serif;
+    }
+}
+
+.footerPys{
+    background-color: $backgroundColorPincipal;
+    height: 55px;
+    section{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    div nav ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+        margin: 60px;
+    }
+}
+
+.footerCarta{
+    background-color: $backgroundColorPincipal;
+    height: 70px;
+    section{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    div nav ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+        margin: 30px;
+    }
+}
+
+.headerTcn{
+    background-color: $backgroundColorPincipal;
+    section{
+        @include flex
+    }
+    h2{
+        font-size: 50px;
+        font-family: 'Roboto Slab', serif;
+    }
+}
+
+
+.footerTcn{
+    background-color: $backgroundColorPincipal;
+    height: 70px;
+    section{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    div nav ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+        margin: 40px;
+    }
+}

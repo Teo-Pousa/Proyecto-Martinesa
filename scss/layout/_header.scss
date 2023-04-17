@@ -1,0 +1,107 @@
+/*INDEX (PAGINA PRINCIPAL INICIO)*/
+header{
+    background-color: $backgroundColorPincipal;
+    img{
+        width: 300px;
+        margin: 10px;
+    }
+    h1{
+        text-align: center;
+        text-decoration: none;
+        width: 550px;
+        font-family: 'Roboto Slab', serif;
+        font-size: xx-large;
+    }
+    section{
+        @include flex
+    }
+    nav{
+        justify-content: center;
+    }
+    a{
+        margin: 10px;
+        text-decoration: none;
+        color: black;
+    } 
+    button{
+        color: #4cad65;
+        background-color: #0f732a;
+        display: none;
+    }
+    button:hover{
+        color: white;
+    }
+}
+
+/*************RESERVA**********/
+
+.reservaHeader{
+    section{
+        @include flex
+    }
+    h2{
+        font-size: 100px;
+        font-family: 'Roboto Slab', serif;
+    }
+}
+
+
+/********LOCAL********/
+
+.headerLocal{
+    section{
+        @include flex
+    }
+    h2{
+        font-size: 100px;
+        font-family: 'Roboto Slab', serif;
+    }
+}
+
+/******EQUIPO*******/
+
+.headerEquipo{
+    section{
+        @include flex
+    }
+    h2{
+        font-size: 100px;
+        font-family: 'Roboto Slab', serif;
+    }
+}
+
+.headerPys{
+    section{
+        @include flex
+    }
+    h2{
+        font-size: 100px;
+        font-family: 'Roboto Slab', serif;
+    }
+}
+
+/*****TRABAJA CON NOSOTROS******/
+
+.headerTcn{
+    background-color: $backgroundColorPincipal;
+    section{
+        @include flex
+    }
+    h2{
+        font-size: 100px;
+        font-family: 'Roboto Slab', serif;
+    }
+}
+
+/******CARTA*******/
+
+.headerCarta{
+    background-color: $backgroundColorPincipal;
+    section{
+        @include flex
+    }
+    h2{
+        font-size: 100px;
+        font-family: 'Roboto Slab', serif;
+    }
+}

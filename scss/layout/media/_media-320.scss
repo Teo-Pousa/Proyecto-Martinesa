@@ -1,0 +1,167 @@
+@media(max-width:320px){
+    .reservaHeader{
+        section{
+            @include flex
+        }
+        h2{
+            font-size: 30px;
+            font-family: 'Roboto Slab', serif;
+        }
+    }
+    
+}
+
+.mainReserva{
+    background-color: $backgroundColorSecundario;
+    height: 400px;
+    section{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    section div p{
+        font-size: 20px;
+        font-weight: 500;
+        margin: 20px;
+        font-family:  'Bitter', serif;
+    }
+    section div img{
+        width: 300px;
+        height: 200px;
+    }
+    section a{
+        font-size: 40px;
+        font-weight: 500;
+        text-decoration: none;
+        color: black;
+    }
+}
+.footerReserva{
+    background-color: $backgroundColorPincipal;
+    height: 55px;
+    section{
+        display: flex;
+        align-items: center;
+        color: black;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    section nav ul a{
+        margin: 5px;
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+}
+
+.headerEquipo{
+    section{
+        @include flex
+    }
+    h2{
+        font-size: 40px;
+        font-family: 'Roboto Slab', serif;
+    }
+}
+
+.mainEquipo{
+    background-color: $backgroundColorSecundario;
+    section{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    section div p{
+        font-family: 'Bitter', serif;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 10px;
+        padding: 5px;
+    }
+    a{
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        margin: 20px;
+        padding: 20px;
+    }
+    img{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+.footerEquipo{
+    background-color: $backgroundColorPincipal;
+    height: 55px;
+    section{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    nav ul a{
+        text-decoration: none;
+        color: black;
+        margin: 5px;
+        font-size: 15px;
+    }
+}
+
+.headerPys{
+    section{
+        @include flex
+    }
+    h2{
+        font-size: 30px;
+        font-family: 'Roboto Slab', serif;
+    }
+}
+
+.mainPys{
+    background-color: $backgroundColorSecundario;
+    section{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    div p{
+        font-family: 'Bitter', serif;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 10px;
+        padding: 20px;
+    }
+    a{
+        text-decoration: none;
+        font-size: 40px;
+        color: black;
+    }
+    img{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+.footerPys{
+    background-color: $backgroundColorPincipal;
+    height: 55px;
+    section{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    div nav ul a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        margin: 5px;
+    }
+}
+

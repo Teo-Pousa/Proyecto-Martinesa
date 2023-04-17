@@ -1,0 +1,176 @@
+/*INDEX (PAGINA PRINCIPAL INICIO)*/
+.mainIndex{
+    background-color: $backgroundColorSecundario;
+    section{
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+    div p{
+        font-family: 'Bitter', serif;
+        font-size: 40px;
+        font-weight: 600;
+        margin: 30px;
+    }
+    img{
+        width: 600px;
+        height: 150px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 50px;
+    }
+}
+
+/*************RESERVA**********/
+.mainReserva{
+    background-color: $backgroundColorSecundario;
+    height: 487px;
+    section{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    section div p{
+        font-size: 80px;
+        font-weight: 500;
+        margin: 20px;
+        font-family:  'Bitter', serif;
+    }
+    div img{
+        width: 300px;
+        height: 200px;
+    }
+    a{
+        font-size: 40px;
+        font-weight: 500;
+        text-decoration: none;
+        color: black;
+    }
+}
+
+/********LOCAL********/
+.mainLocal{
+    background-color: $backgroundColorSecundario;
+    section{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    p{
+        font-family: 'Bitter', serif;
+        font-size: 40px;
+        font-weight: 500;
+        margin: 10px;
+    }
+    a{
+        font-size: 40px;
+        font-weight: 600;
+        text-decoration: none;
+        color: black;
+        margin: 10px;
+    }
+    img{
+        height: 250px;
+        width: 500px;
+    }
+    iframe{
+        margin: 20px;
+        width: 500px;
+        height: 500px;
+    }
+}
+
+/******EQUIPO*******/
+.mainEquipo{
+    background-color: $backgroundColorSecundario;
+    section{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    section div p{
+        font-family: 'Bitter', serif;
+        font-size: 40px;
+        font-weight: 500;
+        margin: 10px;
+        padding: 20px;
+    }
+    section a{
+        text-decoration: none;
+        font-size: 40px;
+        color: black;
+        margin: 20px;
+        padding: 20px;
+    }
+    img{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+/******PRODUCTOS Y SERVICIOS********/
+.mainPys{
+    background-color: $backgroundColorSecundario;
+    section{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    div p{
+        font-family: 'Bitter', serif;
+        font-size: 40px;
+        font-weight: 500;
+        margin: 10px;
+        padding: 20px;
+    }
+    a{
+        text-decoration: none;
+        font-size: 40px;
+        color: black;
+    }
+    img{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+/*****TRABAJA CON NOSOTROS******/
+.mainTcn{
+    background-color: $backgroundColorSecundario;
+    section{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    div p{
+        font-family: 'Bitter', serif;
+        font-size: 40px;
+        font-weight: 400;
+        margin: 10px;
+        padding: 20px;
+    }
+    a{
+        text-decoration: none;
+        font-size: 40px;
+        color: black;
+    }
+    img{
+        width: 300px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,626 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #4cad65; }
+
+header {
+  background-color: #0f732a; }
+
+footer {
+  background-color: #0f732a; }
+
+a:hover {
+  color: white; }
+
+/*COLORES
+#4cad65 (VERDE CLARO)
+#0f732a (VERDE OSCURO)
+
+/*Colores para la pagina 
+#0f732a (verde oscuro)
+#1d913c (verde claro)
+*/
+/*INDEX (PAGINA PRINCIPAL INICIO)*/
+header {
+  background-color: #0f732a; }
+  header img {
+    width: 300px;
+    margin: 10px; }
+  header h1 {
+    text-align: center;
+    text-decoration: none;
+    width: 550px;
+    font-family: 'Roboto Slab', serif;
+    font-size: xx-large; }
+  header section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center; }
+  header nav {
+    justify-content: center; }
+  header a {
+    margin: 10px;
+    text-decoration: none;
+    color: black; }
+  header button {
+    color: #4cad65;
+    background-color: #0f732a;
+    display: none; }
+  header button:hover {
+    color: white; }
+
+/*************RESERVA**********/
+.reservaHeader section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center; }
+
+.reservaHeader h2 {
+  font-size: 100px;
+  font-family: 'Roboto Slab', serif; }
+
+/********LOCAL********/
+.headerLocal section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center; }
+
+.headerLocal h2 {
+  font-size: 100px;
+  font-family: 'Roboto Slab', serif; }
+
+/******EQUIPO*******/
+.headerEquipo section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center; }
+
+.headerEquipo h2 {
+  font-size: 100px;
+  font-family: 'Roboto Slab', serif; }
+
+.headerPys section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center; }
+
+.headerPys h2 {
+  font-size: 100px;
+  font-family: 'Roboto Slab', serif; }
+
+/*****TRABAJA CON NOSOTROS******/
+.headerTcn {
+  background-color: #0f732a; }
+  .headerTcn section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center; }
+  .headerTcn h2 {
+    font-size: 100px;
+    font-family: 'Roboto Slab', serif; }
+
+/******CARTA*******/
+.headerCarta {
+  background-color: #0f732a; }
+  .headerCarta section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center; }
+  .headerCarta h2 {
+    font-size: 100px;
+    font-family: 'Roboto Slab', serif; }
+
+/*INDEX (PAGINA PRINCIPAL INICIO)*/
+.mainIndex {
+  background-color: #4cad65; }
+  .mainIndex section {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center; }
+  .mainIndex div p {
+    font-family: 'Bitter', serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 30px; }
+  .mainIndex img {
+    width: 600px;
+    height: 150px; }
+  .mainIndex a {
+    text-decoration: none;
+    color: black;
+    font-size: 50px; }
+
+/*************RESERVA**********/
+.mainReserva {
+  background-color: #4cad65;
+  height: 487px; }
+  .mainReserva section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column; }
+  .mainReserva section div p {
+    font-size: 80px;
+    font-weight: 500;
+    margin: 20px;
+    font-family: 'Bitter', serif; }
+  .mainReserva div img {
+    width: 300px;
+    height: 200px; }
+  .mainReserva a {
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black; }
+
+/********LOCAL********/
+.mainLocal {
+  background-color: #4cad65; }
+  .mainLocal section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column; }
+  .mainLocal p {
+    font-family: 'Bitter', serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 10px; }
+  .mainLocal a {
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    margin: 10px; }
+  .mainLocal img {
+    height: 250px;
+    width: 500px; }
+  .mainLocal iframe {
+    margin: 20px;
+    width: 500px;
+    height: 500px; }
+
+/******EQUIPO*******/
+.mainEquipo {
+  background-color: #4cad65; }
+  .mainEquipo section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column; }
+  .mainEquipo section div p {
+    font-family: 'Bitter', serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 10px;
+    padding: 20px; }
+  .mainEquipo section a {
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    margin: 20px;
+    padding: 20px; }
+  .mainEquipo img {
+    width: 300px;
+    height: 200px; }
+
+/******PRODUCTOS Y SERVICIOS********/
+.mainPys {
+  background-color: #4cad65; }
+  .mainPys section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column; }
+  .mainPys div p {
+    font-family: 'Bitter', serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 10px;
+    padding: 20px; }
+  .mainPys a {
+    text-decoration: none;
+    font-size: 40px;
+    color: black; }
+  .mainPys img {
+    width: 300px;
+    height: 200px; }
+
+/*****TRABAJA CON NOSOTROS******/
+.mainTcn {
+  background-color: #4cad65; }
+  .mainTcn section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column; }
+  .mainTcn div p {
+    font-family: 'Bitter', serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 10px;
+    padding: 20px; }
+  .mainTcn a {
+    text-decoration: none;
+    font-size: 40px;
+    color: black; }
+  .mainTcn img {
+    width: 300px;
+    height: 200px; }
+
+/*INDEX (PAGINA PRINCIPAL INICIO)*/
+.footerIndex {
+  background-color: #0f732a; }
+  .footerIndex section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+  .footerIndex div a {
+    text-decoration: none;
+    color: black; }
+
+/*************RESERVA**********/
+.footerReserva {
+  background-color: #0f732a;
+  height: 55px; }
+  .footerReserva section {
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+  .footerReserva section nav ul a {
+    margin: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 70px; }
+
+/********LOCAL********/
+.footerLocal {
+  background-color: #0f732a; }
+  .footerLocal section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center; }
+  .footerLocal nav ul a {
+    text-decoration: none;
+    color: black;
+    margin: 50px;
+    font-size: 35px; }
+
+/******EQUIPO*******/
+.footerEquipo {
+  background-color: #0f732a;
+  height: 55px; }
+  .footerEquipo section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center; }
+  .footerEquipo nav ul a {
+    text-decoration: none;
+    color: black;
+    margin: 50px;
+    font-size: 35px; }
+
+/******PRODUCTOS Y SERVICIOS********/
+.footerPys {
+  background-color: #0f732a;
+  height: 55px; }
+  .footerPys section {
+    display: flex;
+    align-items: center;
+    text-align: center; }
+  .footerPys div nav ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    margin: 155px; }
+
+/*****TRABAJA CON NOSOTROS******/
+.footerTcn {
+  background-color: #0f732a;
+  height: 70px; }
+  .footerTcn section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center; }
+  .footerTcn div nav ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    margin: 90px; }
+
+/******CARTA*******/
+.footerCarta {
+  background-color: #0f732a;
+  height: 70px; }
+  .footerCarta section {
+    display: flex;
+    align-items: center;
+    text-align: center; }
+  .footerCarta div nav ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    margin: 90px; }
+
+/***Media Querry****/
+@media (max-width: 768px) {
+  header {
+    background-color: #0f732a; }
+    header img {
+      width: 300px;
+      margin: 10px; }
+    header h1 {
+      text-align: center;
+      text-decoration: none;
+      width: 200px;
+      font-family: 'Roboto Slab', serif;
+      font-size: 10px; } }
+
+.footerReserva {
+  background-color: #0f732a;
+  height: 70px; }
+  .footerReserva section {
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: space-around; }
+  .footerReserva nav ul a {
+    margin: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px; }
+
+.footerLocal {
+  background-color: #0f732a; }
+  .footerLocal section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center; }
+  .footerLocal nav ul a {
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+    font-size: 35px; }
+
+.footerEquipo {
+  background-color: #0f732a;
+  height: 55px; }
+  .footerEquipo section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center; }
+  .footerEquipo nav ul a {
+    text-decoration: none;
+    color: black;
+    margin: 50px;
+    font-size: 30px; }
+
+.headerPys section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center; }
+
+.headerPys h2 {
+  font-size: 50px;
+  font-family: 'Roboto Slab', serif; }
+
+.footerPys {
+  background-color: #0f732a;
+  height: 55px; }
+  .footerPys section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center; }
+  .footerPys div nav ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 60px; }
+
+.footerCarta {
+  background-color: #0f732a;
+  height: 70px; }
+  .footerCarta section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center; }
+  .footerCarta div nav ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin: 30px; }
+
+.headerTcn {
+  background-color: #0f732a; }
+  .headerTcn section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center; }
+  .headerTcn h2 {
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif; }
+
+.footerTcn {
+  background-color: #0f732a;
+  height: 70px; }
+  .footerTcn section {
+    display: flex;
+    align-items: center;
+    text-align: center; }
+  .footerTcn div nav ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin: 40px; }
+
+@media (max-width: 320px) {
+  .reservaHeader section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center; }
+  .reservaHeader h2 {
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif; } }
+
+.mainReserva {
+  background-color: #4cad65;
+  height: 400px; }
+  .mainReserva section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column; }
+  .mainReserva section div p {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+    font-family: 'Bitter', serif; }
+  .mainReserva section div img {
+    width: 300px;
+    height: 200px; }
+  .mainReserva section a {
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: none;
+    color: black; }
+
+.footerReserva {
+  background-color: #0f732a;
+  height: 55px; }
+  .footerReserva section {
+    display: flex;
+    align-items: center;
+    color: black;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+  .footerReserva section nav ul a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 10px; }
+
+.headerEquipo section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center; }
+
+.headerEquipo h2 {
+  font-size: 40px;
+  font-family: 'Roboto Slab', serif; }
+
+.mainEquipo {
+  background-color: #4cad65; }
+  .mainEquipo section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column; }
+  .mainEquipo section div p {
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px;
+    padding: 5px; }
+  .mainEquipo a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin: 20px;
+    padding: 20px; }
+  .mainEquipo img {
+    width: 300px;
+    height: 200px; }
+
+.footerEquipo {
+  background-color: #0f732a;
+  height: 55px; }
+  .footerEquipo section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center; }
+  .footerEquipo nav ul a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+    font-size: 15px; }
+
+.headerPys section {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center; }
+
+.headerPys h2 {
+  font-size: 30px;
+  font-family: 'Roboto Slab', serif; }
+
+.mainPys {
+  background-color: #4cad65; }
+  .mainPys section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column; }
+  .mainPys div p {
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px;
+    padding: 20px; }
+  .mainPys a {
+    text-decoration: none;
+    font-size: 40px;
+    color: black; }
+  .mainPys img {
+    width: 300px;
+    height: 200px; }
+
+.footerPys {
+  background-color: #0f732a;
+  height: 55px; }
+  .footerPys section {
+    display: flex;
+    align-items: center;
+    text-align: center; }
+  .footerPys div nav ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 5px; }
