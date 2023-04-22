@@ -1,167 +1,175 @@
 @media(max-width:320px){
-    .reservaHeader{
-        section{
-            @include flex
+    header{
+        .logo img{
+            display: none;
         }
+        .logo h1{
+            font-size: 15px;
+        }
+        nav ul a{
+            display: flex;
+            font-size: 10px;
+            text-align: center;
+            justify-content: center;
+        }
+    }
+    .mainIndex{
+        p{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        a{
+            font-size: 20px;
+        }
+        img{
+            height: 50px;
+            width: 50px;
+        }
+        iframe{
+            width: 150px;
+            height: 150px;
+        }
+    }
+    .footerIndex{
+        p{
+            font-size: 10px
+        }
+    }
+    .reservaHeader{
         h2{
             font-size: 30px;
-            font-family: 'Roboto Slab', serif;
         }
     }
-    
-}
-
-.mainReserva{
-    background-color: $backgroundColorSecundario;
-    height: 400px;
-    section{
-        display: flex;
-        align-items: center;
-        text-align: center;
-        flex-wrap: wrap;
-        flex-direction: column;
+    .mainReserva{
+        p{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        a{
+            font-size: 30px;
+        }
+        img{
+            width: 250px;
+            height: 100x;
+        }
     }
-    section div p{
-        font-size: 20px;
-        font-weight: 500;
-        margin: 20px;
-        font-family:  'Bitter', serif;
+    .footerReserva{
+        nav ul a{
+            font-size: 15px;
+            margin: 5px;
+        }
     }
-    section div img{
-        width: 300px;
-        height: 200px;
+    .headerLocal{
+        h2{
+            font-size: 30px;
+        }
     }
-    section a{
-        font-size: 40px;
-        font-weight: 500;
-        text-decoration: none;
-        color: black;
+    .mainLocal{
+        p{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        img{
+            width: 250px;
+            height: 100px;
+        }
+        iframe{
+            width: 150px;
+            height: 150px;
+        }
+        a{
+            font-size: 30px;
+        }
     }
-}
-.footerReserva{
-    background-color: $backgroundColorPincipal;
-    height: 55px;
-    section{
-        display: flex;
-        align-items: center;
-        color: black;
-        justify-content: space-around;
-        flex-wrap: wrap;
+    .footerLocal{
+        nav ul a{
+            font-size: 15px;
+            margin: 3px;
+        }
     }
-    section nav ul a{
-        margin: 5px;
-        text-decoration: none;
-        color: black;
-        font-size: 10px;
+    .headerEquipo{
+        h2{
+            font-size: 30px;
+        }
     }
-}
-
-.headerEquipo{
-    section{
-        @include flex
+    .mainEquipo{
+        section p{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        section a{
+            font-size: 30px;
+            font-weight: 600;
+            margin: 0px;
+        }
     }
-    h2{
-        font-size: 40px;
-        font-family: 'Roboto Slab', serif;
+    .footerEquipo{
+        nav ul a{
+            font-size: 20px;
+            margin: 3px;
+        }
     }
-}
-
-.mainEquipo{
-    background-color: $backgroundColorSecundario;
-    section{
-        display: flex;
-        align-items: center;
-        text-align: center;
-        flex-wrap: wrap;
-        flex-direction: column;
+    .headerPys{
+        h2{
+            font-size: 30px
+        }
     }
-    section div p{
-        font-family: 'Bitter', serif;
-        font-size: 20px;
-        font-weight: 500;
-        margin: 10px;
-        padding: 5px;
+    .mainPys{
+        section p{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        section a{
+            font-size: 30px;
+            font-weight: 500;
+        }
     }
-    a{
-        text-decoration: none;
-        font-size: 20px;
-        color: black;
-        margin: 20px;
-        padding: 20px;
+    .footerPys{
+        nav ul a{
+            font-size: 20px;
+            margin: 5px
+        }
     }
-    img{
-        width: 300px;
-        height: 200px;
+    .headerTcn{
+        h2{
+            font-size: 30px;
+        }
     }
-}
-
-.footerEquipo{
-    background-color: $backgroundColorPincipal;
-    height: 55px;
-    section{
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
+    .mainTcn{
+        section p{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        section a{
+            font-size: 30px;
+            font-weight: 500;
+        }
     }
-    nav ul a{
-        text-decoration: none;
-        color: black;
-        margin: 5px;
-        font-size: 15px;
+    .footerTcn{
+        nav ul a{
+            font-size: 15px;
+            margin: 3px
+        }
     }
-}
-
-.headerPys{
-    section{
-        @include flex
-    }
-    h2{
+    .headerCarta{
+        h2{
         font-size: 30px;
-        font-family: 'Roboto Slab', serif;
+        }
+    }
+    .mainCarta{
+        section p{
+            font-size: 20px;
+            font-weight: 600;
+        }
+        section a{
+            font-size: 30px;
+            font-weight: 500;
+        }
+    }
+    .footerCarta{
+        nav ul a{
+            font-size: 15px;
+            margin: 3px;
+        }
     }
 }
-
-.mainPys{
-    background-color: $backgroundColorSecundario;
-    section{
-        display: flex;
-        align-items: center;
-        text-align: center;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-    div p{
-        font-family: 'Bitter', serif;
-        font-size: 20px;
-        font-weight: 500;
-        margin: 10px;
-        padding: 20px;
-    }
-    a{
-        text-decoration: none;
-        font-size: 40px;
-        color: black;
-    }
-    img{
-        width: 300px;
-        height: 200px;
-    }
-}
-
-.footerPys{
-    background-color: $backgroundColorPincipal;
-    height: 55px;
-    section{
-        display: flex;
-        align-items: center;
-        text-align: center;
-    }
-    div nav ul a{
-        text-decoration: none;
-        color: black;
-        font-size: 20px;
-        margin: 5px;
-    }
-}
-

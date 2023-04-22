@@ -25,11 +25,11 @@
         justify-content: space-around;
         flex-wrap: wrap;
     }
-    section nav ul a{
+    nav ul a{
         margin: 50px;
         text-decoration: none;
         color: black;
-        font-size: 70px;
+        font-size: 40px;
     }
 }
 
@@ -72,31 +72,31 @@
 /******PRODUCTOS Y SERVICIOS********/
 .footerPys{
     background-color: $backgroundColorPincipal;
-    height: 55px;
     section{
         display: flex;
         align-items: center;
         text-align: center;
+        justify-content: center;
+        
     }
-    div nav ul a{
+    nav ul a{
         text-decoration: none;
         color: black;
+        margin: 50px;
         font-size: 35px;
-        margin: 155px;
     }
 }
 
 /*****TRABAJA CON NOSOTROS******/
 .footerTcn{
     background-color: $backgroundColorPincipal;
-    height: 70px;
     section{
         display: flex;
         justify-content: space-around;
         align-items: center;
         text-align: center;
     }
-    div nav ul a{
+    nav ul a{
         text-decoration: none;
         color: black;
         font-size: 35px;
@@ -113,7 +113,7 @@
         align-items: center;
         text-align: center;
     }
-    div nav ul a{
+    nav ul a{
         text-decoration: none;
         color: black;
         font-size: 35px;

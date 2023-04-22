@@ -26,39 +26,38 @@ a:hover {
 /*INDEX (PAGINA PRINCIPAL INICIO)*/
 header {
   background-color: #0f732a; }
-  header img {
-    width: 300px;
-    margin: 10px; }
-  header h1 {
+  header .logo {
+    display: flex;
+    align-items: center; }
+  header .logo img {
+    width: 200px;
+    height: 120px;
+    display: flex; }
+  header .logo h1 {
+    display: flex;
     text-align: center;
     text-decoration: none;
-    width: 550px;
     font-family: 'Roboto Slab', serif;
-    font-size: xx-large; }
+    font-size: 50px; }
   header section {
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: center; }
-  header nav {
-    justify-content: center; }
+    justify-content: space-around; }
   header a {
+    display: inline;
     margin: 10px;
     text-decoration: none;
     color: black; }
-  header button {
-    color: #4cad65;
-    background-color: #0f732a;
-    display: none; }
-  header button:hover {
-    color: white; }
+  header .navBar {
+    display: flex; }
 
 /*************RESERVA**********/
 .reservaHeader section {
   display: flex;
   align-items: center;
   text-align: center;
-  justify-content: center; }
+  justify-content: space-around; }
 
 .reservaHeader h2 {
   font-size: 100px;
@@ -69,7 +68,7 @@ header {
   display: flex;
   align-items: center;
   text-align: center;
-  justify-content: center; }
+  justify-content: space-around; }
 
 .headerLocal h2 {
   font-size: 100px;
@@ -80,17 +79,18 @@ header {
   display: flex;
   align-items: center;
   text-align: center;
-  justify-content: center; }
+  justify-content: space-around; }
 
 .headerEquipo h2 {
   font-size: 100px;
   font-family: 'Roboto Slab', serif; }
 
+/******PRODUCTOS Y SERVICIOS******/
 .headerPys section {
   display: flex;
   align-items: center;
   text-align: center;
-  justify-content: center; }
+  justify-content: space-around; }
 
 .headerPys h2 {
   font-size: 100px;
@@ -103,7 +103,7 @@ header {
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: center; }
+    justify-content: space-around; }
   .headerTcn h2 {
     font-size: 100px;
     font-family: 'Roboto Slab', serif; }
@@ -115,7 +115,7 @@ header {
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: center; }
+    justify-content: space-around; }
   .headerCarta h2 {
     font-size: 100px;
     font-family: 'Roboto Slab', serif; }
@@ -124,19 +124,15 @@ header {
 .mainIndex {
   background-color: #4cad65; }
   .mainIndex section {
-    align-items: center;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
     flex-direction: column;
     text-align: center; }
-  .mainIndex div p {
+  .mainIndex p {
     font-family: 'Bitter', serif;
     font-size: 40px;
-    font-weight: 600;
-    margin: 30px; }
+    font-weight: 600; }
   .mainIndex img {
-    width: 600px;
+    width: 100px;
     height: 150px; }
   .mainIndex a {
     text-decoration: none;
@@ -145,24 +141,23 @@ header {
 
 /*************RESERVA**********/
 .mainReserva {
-  background-color: #4cad65;
-  height: 487px; }
+  background-color: #4cad65; }
   .mainReserva section {
     display: flex;
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
     flex-direction: column; }
-  .mainReserva section div p {
-    font-size: 80px;
+  .mainReserva p {
+    font-size: 40px;
     font-weight: 500;
     margin: 20px;
     font-family: 'Bitter', serif; }
-  .mainReserva div img {
+  .mainReserva img {
     width: 300px;
     height: 200px; }
   .mainReserva a {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 500;
     text-decoration: none;
     color: black; }
@@ -204,7 +199,7 @@ header {
     text-align: center;
     flex-wrap: wrap;
     flex-direction: column; }
-  .mainEquipo section div p {
+  .mainEquipo section p {
     font-family: 'Bitter', serif;
     font-size: 40px;
     font-weight: 500;
@@ -229,7 +224,7 @@ header {
     text-align: center;
     flex-wrap: wrap;
     flex-direction: column; }
-  .mainPys div p {
+  .mainPys p {
     font-family: 'Bitter', serif;
     font-size: 40px;
     font-weight: 500;
@@ -252,7 +247,7 @@ header {
     text-align: center;
     flex-wrap: wrap;
     flex-direction: column; }
-  .mainTcn div p {
+  .mainTcn p {
     font-family: 'Bitter', serif;
     font-size: 40px;
     font-weight: 400;
@@ -263,6 +258,30 @@ header {
     font-size: 40px;
     color: black; }
   .mainTcn img {
+    width: 300px;
+    height: 200px; }
+
+.mainCarta {
+  background-color: #4cad65; }
+  .mainCarta section {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column; }
+  .mainCarta section p {
+    font-family: 'Bitter', serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 10px;
+    padding: 20px; }
+  .mainCarta section a {
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    margin: 20px;
+    padding: 20px; }
+  .mainCarta img {
     width: 300px;
     height: 200px; }
 
@@ -289,11 +308,11 @@ header {
     color: black;
     justify-content: space-around;
     flex-wrap: wrap; }
-  .footerReserva section nav ul a {
+  .footerReserva nav ul a {
     margin: 50px;
     text-decoration: none;
     color: black;
-    font-size: 70px; }
+    font-size: 40px; }
 
 /********LOCAL********/
 .footerLocal {
@@ -326,17 +345,17 @@ header {
 
 /******PRODUCTOS Y SERVICIOS********/
 .footerPys {
-  background-color: #0f732a;
-  height: 55px; }
+  background-color: #0f732a; }
   .footerPys section {
     display: flex;
     align-items: center;
-    text-align: center; }
-  .footerPys div nav ul a {
+    text-align: center;
+    justify-content: center; }
+  .footerPys nav ul a {
     text-decoration: none;
     color: black;
-    font-size: 35px;
-    margin: 155px; }
+    margin: 50px;
+    font-size: 35px; }
 
 /*****TRABAJA CON NOSOTROS******/
 .footerTcn {
@@ -347,7 +366,7 @@ header {
     justify-content: space-around;
     align-items: center;
     text-align: center; }
-  .footerTcn div nav ul a {
+  .footerTcn nav ul a {
     text-decoration: none;
     color: black;
     font-size: 35px;
@@ -361,7 +380,7 @@ header {
     display: flex;
     align-items: center;
     text-align: center; }
-  .footerCarta div nav ul a {
+  .footerCarta nav ul a {
     text-decoration: none;
     color: black;
     font-size: 35px;
@@ -371,15 +390,15 @@ header {
 @media (max-width: 768px) {
   header {
     background-color: #0f732a; }
-    header img {
+    header .logo img {
       width: 300px;
       margin: 10px; }
-    header h1 {
+    header .logo h1 {
       text-align: center;
       text-decoration: none;
       width: 200px;
       font-family: 'Roboto Slab', serif;
-      font-size: 10px; } }
+      font-size: 30px; } }
 
 .footerReserva {
   background-color: #0f732a;
@@ -426,7 +445,7 @@ header {
   display: flex;
   align-items: center;
   text-align: center;
-  justify-content: center; }
+  justify-content: space-around; }
 
 .headerPys h2 {
   font-size: 50px;
@@ -466,7 +485,7 @@ header {
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: center; }
+    justify-content: space-around; }
   .headerTcn h2 {
     font-size: 50px;
     font-family: 'Roboto Slab', serif; }
@@ -485,142 +504,99 @@ header {
     margin: 40px; }
 
 @media (max-width: 320px) {
-  .reservaHeader section {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center; }
-  .reservaHeader h2 {
-    font-size: 30px;
-    font-family: 'Roboto Slab', serif; } }
-
-.mainReserva {
-  background-color: #4cad65;
-  height: 400px; }
-  .mainReserva section {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-    flex-direction: column; }
-  .mainReserva section div p {
-    font-size: 20px;
-    font-weight: 500;
-    margin: 20px;
-    font-family: 'Bitter', serif; }
-  .mainReserva section div img {
-    width: 300px;
-    height: 200px; }
-  .mainReserva section a {
-    font-size: 40px;
-    font-weight: 500;
-    text-decoration: none;
-    color: black; }
-
-.footerReserva {
-  background-color: #0f732a;
-  height: 55px; }
-  .footerReserva section {
-    display: flex;
-    align-items: center;
-    color: black;
-    justify-content: space-around;
-    flex-wrap: wrap; }
-  .footerReserva section nav ul a {
-    margin: 5px;
-    text-decoration: none;
-    color: black;
-    font-size: 10px; }
-
-.headerEquipo section {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center; }
-
-.headerEquipo h2 {
-  font-size: 40px;
-  font-family: 'Roboto Slab', serif; }
-
-.mainEquipo {
-  background-color: #4cad65; }
-  .mainEquipo section {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap;
-    flex-direction: column; }
-  .mainEquipo section div p {
-    font-family: 'Bitter', serif;
-    font-size: 20px;
-    font-weight: 500;
-    margin: 10px;
-    padding: 5px; }
-  .mainEquipo a {
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
-    margin: 20px;
-    padding: 20px; }
-  .mainEquipo img {
-    width: 300px;
-    height: 200px; }
-
-.footerEquipo {
-  background-color: #0f732a;
-  height: 55px; }
-  .footerEquipo section {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center; }
-  .footerEquipo nav ul a {
-    text-decoration: none;
-    color: black;
-    margin: 5px;
+  header .logo img {
+    display: none; }
+  header .logo h1 {
     font-size: 15px; }
-
-.headerPys section {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center; }
-
-.headerPys h2 {
-  font-size: 30px;
-  font-family: 'Roboto Slab', serif; }
-
-.mainPys {
-  background-color: #4cad65; }
-  .mainPys section {
+  header nav ul a {
     display: flex;
-    align-items: center;
+    font-size: 10px;
     text-align: center;
-    flex-wrap: wrap;
-    flex-direction: column; }
-  .mainPys div p {
-    font-family: 'Bitter', serif;
+    justify-content: center; }
+  .mainIndex p {
     font-size: 20px;
-    font-weight: 500;
-    margin: 10px;
-    padding: 20px; }
-  .mainPys a {
-    text-decoration: none;
-    font-size: 40px;
-    color: black; }
-  .mainPys img {
-    width: 300px;
-    height: 200px; }
-
-.footerPys {
-  background-color: #0f732a;
-  height: 55px; }
-  .footerPys section {
-    display: flex;
-    align-items: center;
-    text-align: center; }
-  .footerPys div nav ul a {
-    text-decoration: none;
-    color: black;
+    font-weight: 600; }
+  .mainIndex a {
+    font-size: 20px; }
+  .mainIndex img {
+    height: 50px;
+    width: 50px; }
+  .mainIndex iframe {
+    width: 150px;
+    height: 150px; }
+  .footerIndex p {
+    font-size: 10px; }
+  .reservaHeader h2 {
+    font-size: 30px; }
+  .mainReserva p {
+    font-size: 20px;
+    font-weight: 600; }
+  .mainReserva a {
+    font-size: 30px; }
+  .mainReserva img {
+    width: 250px;
+    height: 100x; }
+  .footerReserva nav ul a {
+    font-size: 15px;
+    margin: 5px; }
+  .headerLocal h2 {
+    font-size: 30px; }
+  .mainLocal p {
+    font-size: 20px;
+    font-weight: 600; }
+  .mainLocal img {
+    width: 250px;
+    height: 100px; }
+  .mainLocal iframe {
+    width: 150px;
+    height: 150px; }
+  .mainLocal a {
+    font-size: 30px; }
+  .footerLocal nav ul a {
+    font-size: 15px;
+    margin: 3px; }
+  .headerEquipo h2 {
+    font-size: 30px; }
+  .mainEquipo section p {
+    font-size: 20px;
+    font-weight: 600; }
+  .mainEquipo section a {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0px; }
+  .footerEquipo nav ul a {
+    font-size: 20px;
+    margin: 3px; }
+  .headerPys h2 {
+    font-size: 30px; }
+  .mainPys section p {
+    font-size: 20px;
+    font-weight: 600; }
+  .mainPys section a {
+    font-size: 30px;
+    font-weight: 500; }
+  .footerPys nav ul a {
     font-size: 20px;
     margin: 5px; }
+  .headerTcn h2 {
+    font-size: 30px; }
+  .mainTcn section p {
+    font-size: 20px;
+    font-weight: 600; }
+  .mainTcn section a {
+    font-size: 30px;
+    font-weight: 500; }
+  .footerTcn nav ul a {
+    font-size: 15px;
+    margin: 3px; }
+  .headerCarta h2 {
+    font-size: 30px; }
+  .mainCarta section p {
+    font-size: 20px;
+    font-weight: 600; }
+  .mainCarta section a {
+    font-size: 30px;
+    font-weight: 500; }
+  .footerCarta nav ul a {
+    font-size: 15px;
+    margin: 3px; } }

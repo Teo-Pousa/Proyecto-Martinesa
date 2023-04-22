@@ -1,35 +1,33 @@
 /*INDEX (PAGINA PRINCIPAL INICIO)*/
 header{
     background-color: $backgroundColorPincipal;
-    img{
-        width: 300px;
-        margin: 10px;
+    .logo{
+        display: flex;
+        align-items: center;
     }
-    h1{
+    .logo img{
+        width: 200px;
+        height: 120px;
+        display: flex;
+    }
+    .logo h1{
+        display: flex;
         text-align: center;
         text-decoration: none;
-        width: 550px;
         font-family: 'Roboto Slab', serif;
-        font-size: xx-large;
+        font-size: 50px;
     }
     section{
         @include flex
     }
-    nav{
-        justify-content: center;
-    }
     a{
+        display: inline;
         margin: 10px;
         text-decoration: none;
         color: black;
     } 
-    button{
-        color: #4cad65;
-        background-color: #0f732a;
-        display: none;
-    }
-    button:hover{
-        color: white;
+    .navBar{
+        display: flex;
     }
 }
 
@@ -70,6 +68,7 @@ header{
     }
 }
 
+/******PRODUCTOS Y SERVICIOS******/
 .headerPys{
     section{
         @include flex
